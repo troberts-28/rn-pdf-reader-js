@@ -235,9 +235,10 @@ const Loader = () => (
       ...StyleSheet.absoluteFillObject,
       justifyContent: 'center',
       alignItems: 'center',
+      backgroundColor: '#0B3C29'
     }}
   >
-    <ActivityIndicator size='large' />
+    <ActivityIndicator size='large' color="white" />
   </View>
 )
 
